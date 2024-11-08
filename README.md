@@ -3,7 +3,6 @@ Code repository for paper entitled "Proposed Five-Electron Charge Quadrupole Qub
 
 Introduction: This code aims to do three things, 1) calcualte inhomogenous dephasing times for a single p orbital qubit, 2) optimize control pulses for two p orbital qubits, 3) caclculate the average infidelity of the optimize pulses due to charge noise. There are three folders labeled numerically. Each folder has a README that helps understand the code and it's relation to the paper.
 
-1) This file is a mathematica notebook. There is no special requirements or downloads required to run it. It simply generates inhomogenous dephasing time data and allows you to export it.
 2) Control pulses are found using the qutip-qtrl package which can be downloaded [here](https://qutip-qtrl.readthedocs.io/en/stable/installation.html). The modules "fidcomp.py", "optimizer.py", "pulseoptim.py", and "optimresult.py" in the qutip-qtrl
    package should be replaced with the corresponding modules in the repository. After this is done, simply download the script "Pulse Optimization w GRAPE.py". Before running the code, you must make two decisions; the Zeeman splitting frequency fz and the
    high frequency cutoff for the bandwidth component of the cost function (inclusive). Finally, "labeling definitions" must be changed to accuratley reflect the optimization being run. The code will pick a random inital condition and perform GRAPE until a
