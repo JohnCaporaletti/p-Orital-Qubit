@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Caporaletti"
+  given-names: "John"
+- family-names: "Kestner"
+  given-names: "J."
+title: "p-Orital-Qubit"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2024-11-22
+url: "https://github.com/JohnCaporaletti/p-Orital-Qubit"
