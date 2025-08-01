@@ -5,8 +5,7 @@ authors:
   given-names: "John"
 - family-names: "Kestner"
   given-names: "J."
-title: "p-Orital-Qubit"
+title: "p-Orbital-Qubit"
 version: 1.0.0
-doi: 10.5281/zenodo.1234
 date-released: 2024-11-22
-url: "https://github.com/JohnCaporaletti/p-Orital-Qubit"
+url: "https://github.com/JohnCaporaletti/p-Orbital-Qubit"
